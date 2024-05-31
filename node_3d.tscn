@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://ch6q2k2lp16e1"]
+
+[ext_resource type="PackedScene" uid="uid://k52yxa4ct1s5" path="res://untitled221скелетанимацыя ходьба в333.blend1.blend1.glb" id="1_eakd1"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="untitled221скелетанимацыя ходьба в333_blend1_blend1" parent="." instance=ExtResource("1_eakd1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.163581, 0, -0.310396)
