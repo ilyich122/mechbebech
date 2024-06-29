@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://k52yxa4ct1s5"
-path="res://.godot/imported/untitled221скелетанимацыя ходьба в333.blend1.blend1.glb-fce682a24db22f62669ee284947dad14.scn"
+uid="uid://cxwp57hktc34l"
+path="res://.godot/imported/gerkj.glb-db8b3000efc19d8944414fe961a520d5.scn"
 
 [deps]
 
-source_file="res://untitled221скелетанимацыя ходьба в333.blend1.blend1.glb"
-dest_files=["res://.godot/imported/untitled221скелетанимацыя ходьба в333.blend1.blend1.glb-fce682a24db22f62669ee284947dad14.scn"]
+source_file="res://3dmodel/оружее/gerkj.glb"
+dest_files=["res://.godot/imported/gerkj.glb-db8b3000efc19d8944414fe961a520d5.scn"]
 
 [params]
 

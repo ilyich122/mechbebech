@@ -1,0 +1,3 @@
+[gd_scene format=3 uid="uid://4npjqgn5epru"]
+
+[node name="boss" type="Node3D"]

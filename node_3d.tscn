@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://ch6q2k2lp16e1"]
 
-[ext_resource type="PackedScene" uid="uid://k52yxa4ct1s5" path="res://untitled221скелетанимацыя ходьба в333.blend1.blend1.glb" id="1_eakd1"]
+[ext_resource type="PackedScene" uid="uid://k52yxa4ct1s5" path="res://3dmodel/untitled221скелетанимацыя ходьба в333.blend1.blend1.glb" id="1_eakd1"]
 
 [node name="Node3D" type="Node3D"]
 

@@ -1,10 +1,11 @@
-[gd_scene load_steps=4 format=3 uid="uid://cougmux6ryo5s"]
+[gd_scene load_steps=5 format=3 uid="uid://cougmux6ryo5s"]
 
-[ext_resource type="PackedScene" uid="uid://k52yxa4ct1s5" path="res://untitled221скелетанимацыя ходьба в333.blend1.blend1.glb" id="1_q1blx"]
 [ext_resource type="Script" path="res://player.gd" id="1_s71yv"]
+[ext_resource type="PackedScene" uid="uid://dofgadme6s6y" path="res://3dmodel/тело/legs.glb" id="2_qdwk3"]
+[ext_resource type="PackedScene" uid="uid://btkdq6xwip2p6" path="res://3dmodel/тело/body.glb" id="3_g1igr"]
 
 [sub_resource type="CylinderShape3D" id="CylinderShape3D_iwtay"]
-height = 6.73248
+height = 6.96957
 radius = 1.38633
 
 [node name="player" type="CharacterBody3D"]
@@ -12,9 +13,12 @@ script = ExtResource("1_s71yv")
 
 [node name="pivot" type="Node3D" parent="."]
 
-[node name="character" parent="pivot" instance=ExtResource("1_q1blx")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.67737, -0.85429, -1.446)
+[node name="legs" parent="pivot" instance=ExtResource("2_qdwk3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.554577, -0.493915, -1.22993)
+
+[node name="body" parent="pivot" instance=ExtResource("3_g1igr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.591538, -0.601864, -0.916348)
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.666023, 3.46271, -1.13588)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.666023, 3.81424, -1.13588)
 shape = SubResource("CylinderShape3D_iwtay")

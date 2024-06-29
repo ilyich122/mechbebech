@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dttixrc3yugbq"]
+
+[ext_resource type="PackedScene" uid="uid://dofgadme6s6y" path="res://3dmodel/тело/legs.glb" id="1_0ifu2"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="legs" parent="." instance=ExtResource("1_0ifu2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.11867, 0, 0.178412)

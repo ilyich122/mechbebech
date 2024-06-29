@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ut5uttvdkher"
-path.s3tc="res://.godot/imported/untitled221скелетанимацыя ходьба в333.blend1_1626243111_24-kartinkin-com-p-kamuflyazh-tekstura-besshovna.jpg-6fd1126de7b8fb1aca29917fc9148db0.s3tc.ctex"
+uid="uid://bk0q138lda8km"
+path.s3tc="res://.godot/imported/body_1626243111_24-kartinkin-com-p-kamuflyazh-tekstura-besshovnaya-krasivo-26.jpg-b99227238f07f7c3ddd93ab9e4281fce.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://untitled221скелетанимацыя ходьба в333.blend1_1626243111_24-kartinkin-com-p-kamuflyazh-tekstura-besshovna.jpg"
-dest_files=["res://.godot/imported/untitled221скелетанимацыя ходьба в333.blend1_1626243111_24-kartinkin-com-p-kamuflyazh-tekstura-besshovna.jpg-6fd1126de7b8fb1aca29917fc9148db0.s3tc.ctex"]
+source_file="res://3dmodel/тело/body_1626243111_24-kartinkin-com-p-kamuflyazh-tekstura-besshovnaya-krasivo-26.jpg"
+dest_files=["res://.godot/imported/body_1626243111_24-kartinkin-com-p-kamuflyazh-tekstura-besshovnaya-krasivo-26.jpg-b99227238f07f7c3ddd93ab9e4281fce.s3tc.ctex"]
 
 [params]
 
