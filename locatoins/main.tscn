@@ -1,12 +1,10 @@
 [gd_scene load_steps=4 format=3 uid="uid://bs6yg2yqynsma"]
 
 [ext_resource type="PackedScene" uid="uid://cougmux6ryo5s" path="res://player.tscn" id="1_3gt3v"]
+[ext_resource type="PackedScene" uid="uid://cjcet62dgetr8" path="res://3dmodel/Арена.glb" id="1_sscr8"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_02hx2"]
-size = Vector3(100, 1, 100)
-
-[sub_resource type="BoxMesh" id="BoxMesh_jse6g"]
-size = Vector3(100, 1, 100)
+size = Vector3(592.686, 1, 504.511)
 
 [node name="main" type="Node"]
 
@@ -14,16 +12,18 @@ size = Vector3(100, 1, 100)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, 0)
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 103.468, 0, 17.8424)
 shape = SubResource("BoxShape3D_02hx2")
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D"]
-mesh = SubResource("BoxMesh_jse6g")
+[node name="Арена" parent="StaticBody3D" instance=ExtResource("1_sscr8")]
+transform = Transform3D(10.03, 0, 0, 0, 10.03, 0, 0, 0, 10.03, -8.3094, -19.3439, 16.9483)
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 0.68573, 0.727857, 0, -0.727857, 0.68573, 0, 44.9169, 0)
 
 [node name="player" parent="." instance=ExtResource("1_3gt3v")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.790142, 0)
+speed = 40
 
 [node name="Camera3D" type="Camera3D" parent="player"]
 transform = Transform3D(1, 0, 0, 0, 0.640834, 0.76768, 0, -0.76768, 0.640834, 0, 29.3797, 11.9372)

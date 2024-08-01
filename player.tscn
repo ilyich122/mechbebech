@@ -10,6 +10,8 @@ radius = 1.38633
 
 [node name="player" type="CharacterBody3D"]
 script = ExtResource("1_s71yv")
+speed = 150
+fall_acceleration = 1
 
 [node name="pivot" type="Node3D" parent="."]
 
